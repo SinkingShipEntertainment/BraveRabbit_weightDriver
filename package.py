@@ -68,3 +68,5 @@ def commands():
 
     # For Maya to locate the .mod file to setup env variables for plugins and libraries
     env.MAYA_MODULE_PATH.append("{root}")
+
+    env.MAYA_SCRIPT_PATH.append("{root}/weightDriver/script")
