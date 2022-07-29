@@ -36,9 +36,9 @@ private_build_requires = [
 ]
 
 variants = [
-    ["platform-linux", "arch-x86_64", "os-centos-7", "maya-2022.3.sse.2", "python-2", "maya_devkit-2022"],
-    ["platform-linux", "arch-x86_64", "os-centos-7", "maya-2022.3.sse.3", "python-3", "maya_devkit-2022"],
-    ["platform-linux", "arch-x86_64", "os-centos-7", "maya-2023", "python-3", "maya_devkit-2023"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "maya-2022.3.sse.2", "python-2.7.5", "maya_devkit-2022"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "maya-2022.3.sse.3", "python-3.7.7", "maya_devkit-2022"],
+    ["platform-linux", "arch-x86_64", "os-centos-7", "maya-2023", "python-3.9.7", "maya_devkit-2023"],
 ]
 
 uuid = "repository.BraveRabbit_weightDriver"
