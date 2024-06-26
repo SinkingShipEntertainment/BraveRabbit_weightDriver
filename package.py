@@ -24,6 +24,7 @@ private_build_requires = [
 
 variants = [
     ["maya-2024", "python-3.9", "maya_devkit-2024"],
+    ["maya-2024", "python-3.10", "maya_devkit-2024"],
 ]
 
 uuid = "repository.BraveRabbit_weightDriver"
